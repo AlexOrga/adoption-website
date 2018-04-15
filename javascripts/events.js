@@ -28,4 +28,14 @@ const addEventListener = (pets) => {
   };
 };
 
-module.exports = addEventListener;
+const showAll = (pets) => {
+  const showAllBtn = document.getElementById('show-all');
+  showAllBtn.addEventListener('click', () => {
+    buildDom(pets);
+  });
+};
+
+module.exports = {
+  addEventListener,
+  showAll,
+};

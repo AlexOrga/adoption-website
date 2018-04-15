@@ -1,0 +1,64 @@
+body {
+  background-color: #2D2955;
+  color: #F2F4F3;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.btn-info {
+  display: block;
+  margin: 0 auto;
+}
+
+.card-contain {
+  margin: 20px auto 0;
+  width: 90%;
+}
+
+.pet-card {
+  width: 30%;
+  margin: 0 25px 25px;
+  padding: 0;
+  border: 1px solid #97B3CD;
+  height: 469px;
+}
+
+.petPic {
+  width: 85%;
+  margin: 10px 15px;
+  padding: 10px;
+  border: 2px solid #97B3CD;
+}
+
+.pet-card p {
+  height: 43px;
+}
+
+.pet-card p,
+.pet-card h4 {
+  margin: 0;
+}
+
+.pet-card h2 {
+  margin: 5px;
+  padding: 10px 0;
+  background-color: #8993B6;
+}
+
+.pet-card h4 {
+  height: 21px;
+}
+
+.cat-type {
+  background-color: #006DCC;
+}
+
+.dog-type {
+  background-color: #5CB85C;
+}
+
+.dino-type {
+  background-color: #F0AD4E;
+}

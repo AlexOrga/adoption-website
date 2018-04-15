@@ -1,11 +1,12 @@
 const getPets = require('./pets');
 const buildDom = require('./dom.js');
-const addEventListener = require('./events');
+const events = require('./events');
 
 const petLoad = function () {
   const data = JSON.parse(this.responseText).pets;
   buildDom(data);
-  addEventListener(data);
+  events.addEventListener(data);
+  events.showAll(data);
 };
 
 const noPets = () => {

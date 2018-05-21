@@ -6,6 +6,14 @@ An app for a pet adoption website where the user can filter the results displaye
 
 # Screen Shots
 
+![Webpage](https://raw.githubusercontent.com/AlexOrga/adoption-website/master/screenshots/Adopt1.png)
+
+![Webpage](https://raw.githubusercontent.com/AlexOrga/adoption-website/master/screenshots/Adopt2.png)
+
+![Webpage](https://raw.githubusercontent.com/AlexOrga/adoption-website/master/screenshots/Adopt3.png)
+
+![Webpage](https://raw.githubusercontent.com/AlexOrga/adoption-website/master/screenshots/Adopt4.png)
+
 # How to Run
 
 - Requires Node.js
